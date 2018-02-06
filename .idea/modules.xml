@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CSC548_Spring2018_NumberConverter.iml" filepath="$PROJECT_DIR$/CSC548_Spring2018_NumberConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CSC548_Spring2018_NumberConverter.iml" filepath="$PROJECT_DIR$/.idea/CSC548_Spring2018_NumberConverter.iml" />
+      <module fileurl="file://C:\Users\joscho\AndroidStudioProjects\CSC548_Spring2018_NumberConverter\CSC548_Spring2018_NumberConverter.iml" filepath="C:\Users\joscho\AndroidStudioProjects\CSC548_Spring2018_NumberConverter\CSC548_Spring2018_NumberConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\joscho\AndroidStudioProjects\CSC548_Spring2018_NumberConverter\app\app.iml" filepath="C:\Users\joscho\AndroidStudioProjects\CSC548_Spring2018_NumberConverter\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -9,7 +9,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text|textPersonName"
+            android:singleLine="false"
+            android:text="Megabyte Converter" />
 
         <EditText
             android:id="@+id/mbET"
@@ -25,13 +37,87 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickMeButtonPressed"
-            android:text="Click Me" />
+            android:text="Calculate" />
 
         <TextView
             android:id="@+id/bitsTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:gravity="left"
+            android:text="Bits"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/KbitsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kilobits"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/MbitsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Megabits"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/GbitsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gigabits"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/TbitsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terabits"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/bytesTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bytes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/KbytesTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kilobytes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/MbytesTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Megabytes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/GbytesTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gigabytes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/TbytesTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Terabytes"
             android:textAlignment="center"
             android:textSize="24sp" />
 

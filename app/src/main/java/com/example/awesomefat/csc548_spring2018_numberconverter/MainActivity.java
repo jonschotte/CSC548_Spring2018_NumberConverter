@@ -44,17 +44,17 @@ public class MainActivity extends AppCompatActivity
     public void clickMeButtonPressed(View v)
     {
         String sValue = this.mbET.getText().toString();
-        int iValue = Integer.parseInt(sValue);
-        bitsTV.setText("Bits = " + (iValue * 8388608));
-        KbitsTV.setText("Kilobits = " + (iValue * 8192));
-        MbitsTV.setText("Megabits = " + (iValue * 8));
-        GbitsTV.setText("Gigabits = " + (iValue * 0.0078125));
-        TbitsTV.setText("Terabits = " + (iValue * 0.00000762939));
-        bytesTV.setText("Bytes = " + (iValue * 1048576));
-        KbytesTV.setText("Kilobytes = " + (iValue * 1024));
-        MbytesTV.setText("Megabytes = " + (iValue));
-        GbytesTV.setText("Gigabytes = " + (iValue * 0.0009765625));
-        TbytesTV.setText("Terabytes = " + (iValue * 9.53674316E-7));
+        double iValue = Double.parseDouble(sValue);
+        this.bitsTV.setText("Bits = " + (iValue * 8388608));
+        this.KbitsTV.setText("Kilobits = " + (iValue * 8192));
+        this.MbitsTV.setText("Megabits = " + (iValue * 8));
+        this.GbitsTV.setText("Gigabits = " + (iValue * 0.0078125));
+        this.TbitsTV.setText("Terabits = " + (iValue * 0.00000762939));
+        this.bytesTV.setText("Bytes = " + (iValue * 1048576));
+        this.KbytesTV.setText("Kilobytes = " + (iValue * 1024));
+        this.MbytesTV.setText("Megabytes = " + (iValue));
+        this.GbytesTV.setText("Gigabytes = " + (iValue * 0.0009765625));
+        this.TbytesTV.setText("Terabytes = " + (iValue * 9.53674316E-7));
 
     }
 
